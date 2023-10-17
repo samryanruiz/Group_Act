@@ -1,3 +1,6 @@
+/* Add comments or explanations as needed */
+
+/* Define the global reset styles */
 * {
   padding: 0;
   margin: 0;
@@ -5,15 +8,17 @@
   box-sizing: border-box;
 }
 
+/* Style the hero section */
 .hero {
   height: 100vh;
   width: 100%;
   background-color: #000;
-  background-image: url('https://data.whicdn.com/images/304616830/original.gif');
+  background-image: url("https://data.whicdn.com/images/304616830/original.gif");
   background-size: cover;
   background-position: center;
 }
 
+/* Style the navigation bar */
 nav {
   display: flex;
   align-items: center;
@@ -23,6 +28,7 @@ nav {
   padding-right: 12%;
 }
 
+/* Style the logo */
 .logo {
   color: white;
   font-size: 35px;
@@ -34,6 +40,7 @@ span {
   color: rgb(255, 200, 0);
 }
 
+/* Style the navigation links */
 nav ul li {
   list-style-type: none;
   display: inline-block;
@@ -52,6 +59,7 @@ nav ul li a:hover {
   transition: 0.4s;
 }
 
+/* Style the CTA button */
 .btn {
   background-color: #f9004d;
   color: white;
@@ -67,6 +75,7 @@ nav ul li a:hover {
   transform: scale(1.2);
 }
 
+/* Style the content section */
 .content {
   position: absolute;
   top: 60%;
@@ -86,12 +95,55 @@ h3 {
   margin-bottom: 50px;
 }
 
+/* Style the separator line */
 h4 {
   color: rgb(255, 200, 0);
   letter-spacing: 2px;
   font-size: 40px;
 }
 
+/* Style the about section */
+.about {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #191919;
+}
+
+.about img {
+  height: auto;
+  width: 430px;
+}
+
+/* Style the about text */
+.about-text {
+  width: 550px;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+about-text p {
+  color: rgb(255, 248, 221);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 45px;
+}
+
+/* Style the newsletter form */
 .newslatter form {
   width: 380px;
   max-width: 100%;
@@ -121,71 +173,7 @@ h4 {
   right: 6px;
 }
 
-.about {
-  width: 100%;
-  padding: 100px 0;
-  background-color: #191919;
-}
-
-.about img {
-  height: auto;
-  width: 430px;
-}
-
-.about-text {
-  width: 550px;
-}
-
-.main {
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.about-text h2 {
-  color: white;
-  font-size: 75px;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-}
-
-.about-text h5 {
-  color: white;
-  letter-spacing: 2px;
-  font-size: 22px;
-  margin-bottom: 25px;
-  text-transform: capitalize;
-}
-
-.about-text p {
-  color: rgb(255, 248, 221);
-  letter-spacing: 1px;
-  line-height: 28px;
-  font-size: 18px;
-  text-align: justify;
-  margin-bottom: 45px;
-}
-
-button {
-  background-color: rgb(255, 200, 0);
-  color: white;
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 13px 30px;
-  border-radius: 30px;
-  transition: 0.4s;
-}
-
-button:hover {
-  background-color: transparent;
-  border: 2px solid rgb(255, 200, 0);
-  cursor: pointer;
-}
-
+/* Style the HandsOnActivities section */
 .HandsOnActivities {
   background: #101010;
   width: 100%;
@@ -200,6 +188,7 @@ button:hover {
   text-align: center;
 }
 
+/* Style the activity boxes */
 .box {
   display: grid;
   grid-template-columns: repeat(3, 350px);
@@ -219,6 +208,7 @@ button:hover {
   text-align: center;
 }
 
+/* Style the icons in the activity boxes */
 .card i {
   font-size: 50px;
   display: block;
@@ -227,6 +217,7 @@ button:hover {
   color: rgb(255, 200, 0);
 }
 
+/* Style the titles of the activity boxes */
 h5 {
   color: #fcf;
   font-size: 23px;
@@ -234,6 +225,7 @@ h5 {
   margin-bottom: 15px;
 }
 
+/* Style the paragraph inside the activity boxes */
 .pra p {
   color: rgb(255, 248, 221);
   font-size: 16px;
@@ -241,6 +233,7 @@ h5 {
   margin-top: 50px;
 }
 
+/* Style the buttons in the activity boxes */
 .card .button {
   background-color: rgba(255, 200, 0, 0.895);
   color: white;
@@ -258,6 +251,7 @@ h5 {
   cursor: pointer;
 }
 
+/* Style the contact section */
 .contact-me {
   width: 100%;
   height: 750px;
@@ -268,7 +262,8 @@ h5 {
   justify-content: center;
 }
 
-.contact-me p:first-child {
+/* Style the contact section text */
+contact-me p:first-child {
   color: white;
   font-size: 75px;
   font-weight: bold;
@@ -276,7 +271,7 @@ h5 {
   margin-bottom: -60px;
 }
 
-.contact-me p:last-child {
+contact-me p:last-child {
   color: white;
   font-size: 30px;
   text-align: justify;
@@ -285,6 +280,7 @@ h5 {
   text-indent: 5%;
 }
 
+/* Style the footer section */
 footer {
   position: relative;
   width: 100%;
@@ -303,6 +299,7 @@ footer p {
   font-weight: bold;
 }
 
+/* Style the social links */
 .social {
   display: flex;
 }
@@ -326,6 +323,7 @@ footer p {
   transition: 0.3s;
 }
 
+/* Style the end section */
 .end {
   position: absolute;
   color: rgb(255, 200, 0);
